@@ -1,0 +1,18 @@
+canvas {
+	width: 512px;
+	height: 512px;
+	image-rendering: -moz-crisp-edges;
+	image-rendering: -webkit-crisp-edges;
+	image-rendering: pixelated;
+	image-rendering: crisp-edges;
+	position:absolute;
+	left:5px;
+	top:5px;
+	opacity:0.5;
+}
+
+canvas#building {
+	left:2px;
+	top:2px;
+}
+

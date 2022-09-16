@@ -1,0 +1,45 @@
+city-container {
+	display:block;
+	width:800px;
+	height:600px;
+	position:relative;
+	word-spacing:0px;
+}
+city {
+	display:block;
+	position:absolute;
+	bottom:0;
+
+}
+city-line {
+	display:flex;
+	width:800px;
+	height:32px;
+}
+
+city-pavement {
+	display:inline-block;
+	width:128px;
+	height:256px;
+	background-image:url(./pavement1.png);
+	background-size:contain;
+	image-rendering: pixelated;
+}
+
+city-house {
+	display:inline-block;
+	width:128px;
+	height:256px;
+	background-image:url(./house2.png);
+	background-size:contain;
+	image-rendering: pixelated;
+}	
+
+city-tree {
+	display:inline-block;
+	width:128px;
+	height:256px;
+	background-image:url(./tree1.png);
+	background-size:contain;
+	image-rendering: pixelated;
+}	
